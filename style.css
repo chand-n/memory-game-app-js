@@ -1,0 +1,25 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 80vh;
+    background-color: aquamarine ;
+}
+h3{
+    text-align: center;
+    margin:1rem;
+    color: red;
+    
+}
+#result{
+    color:red;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+    grid-template-rows: repeat(2, 300px);
+     grid-column-gap: 2rem;
+    grid-row-gap: 0.5rem;  
+}
